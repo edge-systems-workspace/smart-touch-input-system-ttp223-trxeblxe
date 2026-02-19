@@ -24,10 +24,10 @@ void loop() {
     int state = digitalRead(touchPin);
     if(state==1){
         digitalWrite(13,1);
-        Serial.println("ToUcH");
+        Serial.println("Toched");
     }
     else{
         digitalWrite(13,0);
-        Serial.println("UnToUcHeD");
+        Serial.println("UnTouched");
     }
 }

@@ -21,8 +21,8 @@ void setup() {
 }
 
 void loop() {
-    int state = digitalRead(touchPin);
-    if(state==1){
+    int s = digitalRead(touchPin);
+    if(s==1){
         digitalWrite(13,1);
         Serial.println("Toched");
     }
